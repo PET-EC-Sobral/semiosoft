@@ -8,11 +8,11 @@ import {DomSanitizer} from '@angular/platform-browser';
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'osteo-sub-page',
-  templateUrl: 'osteo.html'
+  selector: 'video-section',
+  templateUrl: 'video-section.html'
 })
 
-export class OsteoSubPage {
+export class VideoSection {
 	sanitizer: DomSanitizer;
 
 	@Input() title;
