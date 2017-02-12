@@ -8,26 +8,41 @@ import { NavController } from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-
-  template:
-
-  `<ion-header>
-
-    <ion-navbar color="primary">
-      <ion-title>Inspeção</ion-title>
-    </ion-navbar>
-
-  </ion-header>
-
-
-  <ion-content padding>
-  conteúdo
-  </ion-content>
-`
+  templateUrl: 'r2.html',
 })
+
 export class R2 {
+  legendA: Array<string>;
+  legendB: Array<string>;
+  legendC: Array<string>;
+  inspectionList: Array<string>;
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController) {
+    this.populateLegends();
 
+    this.inspectionList = [
+      "Frequência respiratória (bradipneia: <16 irpm; taquipneia: > 25 irpm)",
+      "Uso de musculatura acessória",
+      "Tiragem intercostal",
+      "Padrões respiratórios (Biot, Cheyne-Stoke e Kussmaul)"
+    ];
+  }
 
+  populateLegends(){
+    this.legendA = [
+      "Região Supraclavicular", "Região Clavicular", "Região Infraclavicular",
+      "Região Mamária", "Região Inframamária", "Região Supraesternal",
+      "Região Esternal Superior", "Região Esternal Inferior"      
+    ];
+
+    this.legendB = [
+      "Região Supraescapular", "Região Supraespinhosa",
+      "Região Infraespinhosa", "Região Interescapulovertebral",
+      "Região Infraescapular"
+    ];
+
+    this.legendC = [
+      "Região Axilar", "Região Infraxilar"
+    ];
+  }
 }
