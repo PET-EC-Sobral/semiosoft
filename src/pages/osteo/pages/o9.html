@@ -19,105 +19,18 @@ td{
 		<b>Spurling</b>: Compressão na coluna cervical gerando dor similar a referida pelo paciente, com irradiação para o membro acometido
   	</explanation-text-titled>
 
-  	<!-- TODO: make a table component-->
+  	
+
   	<table border="1" cellspacing="0">
-	  <thead>
-	    <tr>
-	      <td>Tipos de manobra</td>
-	      <td>Avaliação</td>
-	      <td>Descrição</td>
-	    </tr>
-	  </thead>
-	  <tbody>
-	    <tr>
-	      <td><b>Manobra de Jobe</b></td>
-	      <td>Paciente com lesão do manguito rotador
-	          queixa-se de dor na região anterior do ombro
-	      </td>
-	      <td>
-	        Braço em abdução de 90 graus rotaclo
-	        internamente e antebraço pronado com
-	        polegar para baixo. O examinador força o
-	        movimento de descida dos braços contra
-	        resistência do paciente.
-	      </td>
-	    </tr>
-	    <tr>
-	      <td><b>Manobra de Yergason</b></td>
-	      <td>
-	        Paciente com tendinite da cabeça longa do
-	        bíceps apresenta dor na região anterior do
-	        ombro
-	      </td>
-	      <td>
-	        Paciente com os cotovelos em flexão de 909 o
-	        examinador provoca uma supinação forçada
-	        contra resistência
-	      </td>
-	    </tr>
-	    <tr>
-	      <td><b>Arco doloroso de Simmonds</b></td>
-	      <td>
-	          Avalia os processos inflamatórios que afetam o
-	          tendão do músculo supra-espinhal e as bolsas
-	          sinoviais do ombro
-	      </td>
-	      <td>
-	        A manobra consiste na elevação ativa do
-	        ombro no plano da escápula com o membro
-	        em rotação medial.A resposta e' positiva
-	        quando há dor entre 70º e 120º
-	      </td>
-	    </tr>
-	    <tr>
-	      <td><b>Manobra de Yokum</b></td>
-	      <td>
-	        Avalia tanto a artrose acrômio-clavicular como
-	        tendinopatia do supraespinhoso
-	      </td>
-	      <td>
-	        O paciente apoia a mão no ombro
-	        contralateral, enquanto passivamente eleva-se
-	        o membro pelo cotovelo.
-	      </td>
-	    </tr>
-	    <tr>
-	      <td><b>Manobra de Tinnel</b></td>
-	      <td>
-	        Sindrome do Túnel do Carpo
-	      </td>
-	      <td>
-	        Realiza-se a percussão da região ventral do
-	        punho, quando positivo o paciente refere dor
-	        e parestesia sendo transmitida ao território de
-	        inervação do nervo mediano.
-	      </td>
-	    </tr>
-	    <tr>
-	      <td><b>Manobra de Phalen</b></td>
-	      <td>
-	        Síndrome do Túnel do Carpo
-	      </td>
-	      <td>
-	          Reprodução de parestesia do primeiro até
-	          metade do quarto quirodáctilo mediante a
-	          flexão máxima do punho e a sua manutenção
-	          pelo período de 1 minuto.
-	      </td>
-	    </tr>
-	    <tr>
-	      <td><b>Manobra de Finkelstein</b></td>
-	      <td>
-	          Tendinite de Quervain
-	      </td>
-	      <td>
-	        Paciente com a mão fechada e o polegar
-	        aduzido e fletido, realiza um desvio ulnar
-	        apresenta dor na face lateral da mão e do
-	        punho.
-	      </td>
-	    </tr>
-	    
-	  </tbody>
-	</table>
+  		<thead>
+  			<tr>
+  				<td *ngFor="let col of table[0]" [innerHtml]="col">
+  				</td>
+  			</tr>
+  		</thead>
+  		<tr *ngFor="let row of table.slice(1)">
+  			<td *ngFor="let col of row" [innerHtml]="col">
+  			</td>
+  		</tr>
+  	</table>
 </osteo-sub-page>
