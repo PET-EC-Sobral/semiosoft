@@ -8,22 +8,7 @@ import { NavController } from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-
-  template:
-
-  `<ion-header>
-
-    <ion-navbar color="primary">
-      <ion-title>Exame da Articulação Sacroilíaca</ion-title>
-    </ion-navbar>
-
-  </ion-header>
-
-
-  <ion-content padding>
-  conteúdo
-  </ion-content>
-`
+  templateUrl: 'o5.html'
 })
 export class O5 {
 

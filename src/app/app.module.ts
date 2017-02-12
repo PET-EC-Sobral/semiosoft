@@ -29,6 +29,8 @@ import{R4} from '../pages/respi/pages/r4';
 import{R5} from '../pages/respi/pages/r5';
 
 //respiratorio
+import {OsteoSubPage} from '../pages/osteo/pages/o';
+import {ExplanationTextTitled} from '../pages/osteo/pages/explanation-text-titled';
 import{O1} from '../pages/osteo/pages/o1';
 import{O2} from '../pages/osteo/pages/o2';
 import{O3} from '../pages/osteo/pages/o3';
@@ -47,7 +49,7 @@ import{O9} from '../pages/osteo/pages/o9';
     Nervoso, N1,N2,N3,N4,N5,N6,
     Cardio, C1,C2,C3,
     Respi,R1,R2,R3,R4,R5,
-    Osteo, O1,O2,O3,O4,O5,O6,O7,O8,O9
+    Osteo, OsteoSubPage, ExplanationTextTitled, O1,O2,O3,O4,O5,O6,O7,O8,O9
 
   ],
   imports: [
@@ -60,7 +62,7 @@ import{O9} from '../pages/osteo/pages/o9';
     Nervoso, N1,N2,N3,N4,N5,N6,
     Cardio, C1,C2,C3,
     Respi,R1,R2,R3,R4,R5,
-    Osteo, O1,O2,O3,O4,O5,O6,O7,O8,O9
+    Osteo, OsteoSubPage, ExplanationTextTitled, O1,O2,O3,O4,O5,O6,O7,O8,O9
 
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

@@ -8,22 +8,7 @@ import { NavController } from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-
-  template:
-
-  `<ion-header>
-
-    <ion-navbar color="primary">
-      <ion-title>Exame da Coluna Torácica</ion-title>
-    </ion-navbar>
-
-  </ion-header>
-
-
-  <ion-content padding>
-  conteúdo
-  </ion-content>
-`
+  templateUrl: 'o3.html'
 })
 export class O3 {
 
@@ -31,3 +16,4 @@ export class O3 {
 
 
 }
+
