@@ -29,6 +29,11 @@ import { NavController } from 'ionic-angular';
         </div>
   </div>
 
+  <p>
+  Diante do Exame Cardiovascular o estudante de medicina se depara com um dos mais interessantes desafios semiológicos durante a sua formação: identificar e diferenciar os mais diversos achados da ausculta cardíaca. Tal situação demanda muita prática, assimilação e sobretudo sensibilidade, que no decorrer de sua formação vão sendo aperfeiçoados. Apesar de essencial e também o que mais demanda prática, o recurso da ausculta não é o único disponível no exame cardiovascular, sendo a avaliação ampla do sistema cardiovascular possível apenas com a associação da percussão, palpação e inspeção. A seguir, podemos conferir pontos-chave do exame cardiovascular por meio dos vídeos e resumos.
+  </p>
+
+
   <h2>Inspeção </h2>
 
   <p>Procura de sinais de instabilidade hemodinâmica / baixa perfusão tecidual: </p>

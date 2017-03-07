@@ -1,30 +1,50 @@
 <ion-header>
   <ion-navbar color="primary">
-    <ion-title>
+    <ion-title style="    text-align: -webkit-center;">
       Semiosoft
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content >
 
-  <div [ngStyle]="{'background-image': 'url(' + image + ')'}" style="background-repeat: no-repeat; background-size:100% 100%;width:100%; height:100%;">
+  <div [ngStyle]="{'background-image': 'url(./assets/images/principal.png)'}" style="background-repeat: no-repeat; background-size:100% 100%;width:100%; height:100%;">
 
-      <img (click)="ner()" style="left:10%; top:5%; position:absolute;" src="https://static.wixstatic.com/media/1390f1_c171ea271c7d4707ad00b01cbf0bfe72~mv2.png/v1/crop/x_27,y_24,w_210,h_217/fill/w_95,h_98,al_c,usm_0.66_1.00_0.01/1390f1_c171ea271c7d4707ad00b01cbf0bfe72~mv2.png">
-      <ion-avatar>
-    </ion-avatar>
 
-    <ion-avatar >
-      <img (click)="car()" style="left:60%; top:27%; position:absolute;" src="https://static.wixstatic.com/media/1390f1_1818d7592616496aaf0ead12c8d7087c~mv2.png/v1/crop/x_22,y_18,w_205,h_199/fill/w_92,h_89,al_c,usm_0.66_1.00_0.01/1390f1_1818d7592616496aaf0ead12c8d7087c~mv2.png">
-    </ion-avatar>
+    <div (click)="ner()" style="position: absolute;  height:13%; width:17%; top:64%; left: 6%; border-radius:50%;">
 
-    <ion-avatar >
-        <img (click)="res()" style="left:20%; top:35%; position:absolute;" src="https://static.wixstatic.com/media/1390f1_1300e4c35dd14b90835450284a6f98dd~mv2.png/v1/crop/x_11,y_15,w_206,h_214/fill/w_98,h_102,al_c,usm_0.66_1.00_0.01/1390f1_1300e4c35dd14b90835450284a6f98dd~mv2.png">
-    </ion-avatar>
+    </div>
 
-    <ion-avatar >
-        <img (click)="os()" style="left:60%; top:70%; position:absolute;" src="https://static.wixstatic.com/media/1390f1_321ac93825924d0794e7691391d67179~mv2.png/v1/fill/w_104,h_108,al_c,usm_0.66_1.00_0.01/1390f1_321ac93825924d0794e7691391d67179~mv2.png">
-    </ion-avatar>
+    <div (click)="car()" style="position: absolute;  height:13%; width:17%; top:64%; left: 30%; border-radius:50%;">
+
+    </div>
+    <div (click)="res()" style="position: absolute;  height:13%; width:17%; top:64%; left: 54%; border-radius:50%;">
+
+    </div>
+
+     <div (click)="os()" style="position: absolute;  height:13%; width:17%; top:64%; left: 76%; border-radius:50%;">
+
+    </div>
+
+    <a href="http://petmedsobral.wixsite.com/site">
+    <div style="position: absolute;  height:10%; width:10%; top:90%; left: 26%; border-radius:40%;">
+    </div>
+    </a>
+
+    <a href="http://200.129.42.3/famed/">
+    <div style="position: absolute;  height:10%; width:10%; top:90%; left: 39%; border-radius:40%;">
+    </div>
+    </a>
+    <a href="http://www.ec.ufc.br/">
+    <div style="position: absolute;  height:10%; width:10%; top:90%; left: 51%; border-radius:40%;">
+    </div>
+    </a>
+    <a href="http://www.pet.ec.ufc.br/">
+    <div style="position: absolute;  height:10%; width:10%; top:90%; left: 63%; border-radius:40%;">
+    </div>
+
+    </a>
+
 
   </div>
 

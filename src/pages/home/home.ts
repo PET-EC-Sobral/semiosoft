@@ -13,13 +13,13 @@ import{Osteo} from '../osteo/osteo';
   templateUrl: 'home.html'
 })
 export class HomePage {
-image ="https://static.wixstatic.com/media/4f3b96f7b0f24fb5baa5997e60b27736.png/v1/crop/x_212,y_34,w_177,h_515/fill/w_177,h_515,al_c/4f3b96f7b0f24fb5baa5997e60b27736.png";
+image ="../../assets/main.png";
   constructor(public navCtrl: NavController) {
 
   }
 
 ner(){
-  
+
   this.navCtrl.push(Nervoso)
 }
 

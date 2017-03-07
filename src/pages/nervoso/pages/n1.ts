@@ -27,6 +27,17 @@ import { NavController } from 'ionic-angular';
             <iframe width="100%" height="110%" src="https://www.youtube.com/embed/tD_pg6oen-M" frameborder="0" allowfullscreen></iframe>
         </div>
   </div>
+
+<p>
+O Exame Neurológico tido por muitos como um exame sofisticado e sobretudo extenso, muitas vezes é renegado pelos médicos e estudantes de medicina. No entanto,
+ praticá-lo rotineiramente e de forma objetiva pode tornar a semiologia neurológica uma ferramenta clínica fundamental, podendo antecipar os resultados de exames complementares,
+ acompanhar a evolução clínica do paciente ou até mesmo fornecer o diagnóstico apenas com a semiotécnica. Em função disso, ressaltamos a importância do conhecimento da semiologia
+  neurológica e a apresentamos de forma sucinta nos seguintes vídeos e resumos.
+
+</p>
+
+
+
   </ion-content>
 `
 })
