@@ -28,7 +28,7 @@ import { NavController } from 'ionic-angular';
   </div>
 
 
-  <h2>Ausculta</h2>
+  <h3>Ausculta</h3>
 
   <h5>Focos de ausculta:</h5>
 <p>
@@ -55,16 +55,34 @@ import { NavController } from 'ionic-angular';
 </ol>
 <p>
 
+<h5>Bulhas cardíacas</h5>
+<b>Primeira bulha (B1):</b> <p>Fechamento das valvas mitral e tricúspide. Coincide com o ictus cordis e com o pulso carotídeo. Representada pela onomatopeia TUM.</p>
+
+<b>Segunda bulha (B2): </b> <p>Fechamento das valvas aórtica e pulmonar. O timbre é mais agudo e a duração é menor do que a primeira bulha. Representada pela onomatopeia TÁ.</p>
+
+<b>Terceira Bulha (B3):</b> <p>Origina-se das vibrações da parede ventricular pela corrente sanguínea durante a fase de enchimento ventricular rápido.</p>
+
+<b>Quarta bulha (B4):</b><p> Ruído débil que ocorre no fim da diástole. Causada pelo impacto do sangue, mobilizado pela contração atrial, na parede ventricular.</p>
+
+
   <h5>Doenças relacionadas e alterações:</h5>
 <p>
-  Estenose Aórtica: Sopro Sistólico
+  <br/>Estenose Aórtica: Sopro Sistólico
   <br/>Insuficiência Aórtica: Sopro Diastólico
   <br/>Estenose Pulmonar: Sopro Sistólico
   <br/>Insuficiência Pulmonar Sopro Diastólico
   <br/>Estenose Mitral: Sopro Diastólico
   <br/>Estenose Tricúspide: Sopro Diastólico
   <br/>Insuficiência Tricúspide: Sopro Sistólico
+  <br/>Insuficiência mitral: Sopro sistólico
+  <br/>Pericardite fibrinosa: Atrito pericárdico
+
 </p>
+
+    <h5>Manobras</h5>
+
+  <b>Rivero-Carvallo:</b> Paciente em decúbito dorsal, pede-se que faça uma inspiração profunda, buscando identificar alguma modificação na intensidade do sopro. Se não houver alteração ou redução da intensidade do sopro, a manobra é negativa e a insuficiência é mitral. Caso haja alteração, a manobra é positiva e a insuficiência é tricúspide.
+
 
   </ion-content>
 `

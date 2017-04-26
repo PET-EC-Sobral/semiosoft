@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {ToastController} from 'ionic-angular';
 
 import{Nervoso} from '../nervoso/nervoso';
 import{Cardio} from '../cardio/cardio';
@@ -14,8 +15,25 @@ import{Osteo} from '../osteo/osteo';
 })
 export class HomePage {
 image ="../../assets/main.png";
-  constructor(public navCtrl: NavController) {
+  constructor(private toastCtrl: ToastController,public navCtrl: NavController) {
+      this.presentToast();
+  }
 
+  presentToast() {
+    let toast = this.toastCtrl.create({
+      message: 'Click nos ícones para ver o conteúdo.',
+      duration: 4000,
+      position: 'middle',
+      showCloseButton: true,
+      closeButtonText: 'OK'
+    });
+
+
+    toast.onDidDismiss(() => {
+      console.log('Dismissed toast');
+    });
+
+    toast.present();
   }
 
 ner(){

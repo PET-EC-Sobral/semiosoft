@@ -26,31 +26,35 @@ import { NavController } from 'ionic-angular';
             <iframe width="100%" height="110%" src="https://www.youtube.com/embed/Bw4_87jSX6s" frameborder="0" allowfullscreen></iframe>
         </div>
   </div>
+<p>  O exame da função sensitiva é parte essencial do exame neurológico, pois permite somente com esse recurso localizar lesões que podem indicar padrões de doenças específicas (p. ex., polineuropatias com padrão “bota e luva”). Para isso é essencial que o examinador conheça os dermátomos.
+</p>
 
   <p>Existem dois tipos de sensibilidade a serem avaliados no exame neurológico:<p>
 <ul>
 <li>Superficial</li>
 <li>Profunda</li>
-<li>Sensibilidade superficial (transmitida pelo trato espino-talâmico lateral)</li>
+</ul>
+<ul>
+<li>Sensibilidade superficial é transmitida pelo trato espino-talâmico lateral)</li>
 <ul>
 <li>Dor</li>
 <ul>
-<li>Alfinete ou outro instrumento pontiagudo</li>
+<li>Por meio de um alfinete ou outro instrumento pontiagudo</li>
 </ul>
 <li>Temperatura</li>
 <ul>
-<li>Tubo de ensaio com água quente/fria</li>
+<li>Preencher um tubo de ensaio com água quente/fria e tocando-o nos diversos dermátomos.</li>
 </ul>
 <li>Tato leve</li>
 <ul>
-<li>Algodão, estesiômetro</li>
+<li>Toque leve do algodão ou por meio de um instrumento especial chamado estesiômetro</li>
 </ul>
 </ul>
-<li>Sensibilidade profunda (propriocepção consciente) à Transmitida através do funículo posterior da medula (fascículos grácil e cuneiforme)</li>
+<li>Sensibilidade profunda permite avaliar a propriocepção consciente a qual é transmitida por meio do funículo posterior da medula (fascículos grácil e cuneiforme)</li>
 <ul>
 <li>Vibração (palestesia):</li>
 <ul>
-<li>Diapasão nas proeminências ósseas</li>
+<li>Tocar o diapasão nas proeminências ósseas intercalando momentos de vibração com não-vibração</li>
 </ul>
 <ul>
 <li>Posição (cinético-postural):</li>
